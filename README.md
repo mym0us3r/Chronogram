@@ -68,6 +68,8 @@ To use ChronoGram, you need a valid Instagram session cookie.
 > **Never share your SessionID.** It is equivalent to your password and gives full access to your account.
 
 ### Usage Examples: 
+![Extraction Demo](img/chronohelp.png)
+
 ```
 After setting up Tor and getting your SessionID, you can run ChronoGram using the following commands: 
 
