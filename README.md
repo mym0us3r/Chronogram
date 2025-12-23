@@ -97,7 +97,7 @@ python3 chronogram.py -n +5561999999999 -s YOUR_SESSIONID
 Zeus, the 30-day-old puppy guarding the source code :) 
 ---------------------------------------------------------------------- 
 **Credits & Inspiration:**
-This project was inspired by the excellent work of [megadose/toutatis](https://github.com/megadose/toutatis). 
+This project was inspired by the excellent work of Palenath megadose toutatis. 
 **ChronoGram** aims to expand on these concepts by adding automated Tor stealth routing, HD media recovery, and professional HTML reporting for investigators.
 
 **License:**
