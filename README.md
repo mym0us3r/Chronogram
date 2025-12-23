@@ -2,6 +2,13 @@
 
 **ChronoGram** is a powerful, stealth-focused OSINT tool designed to extract deep metadata from Instagram profiles. Unlike standard tools, ChronoGram automates security protocols via the Tor network and organizes every investigation into professional workspaces.
 
+**The Origin of the Name**: The name **ChronoGram** comes from the fusion of two Greek roots:
+* **Chrono** (Greek *Khronos*): Representing **Time** and the timeline of investigation.
+* **-gram** (Greek Suffix *-gramma*): Representing a **Written Record** or **Visual Representation**.
+**ChronoGram** is designed to capture and record the digital evidence left behind in the social media timeline.
+
+Together, **ChronoGram** represents the art of extracting and recording the chronological intelligence hidden within social media structures.
+
 ![Extraction Demo](img/chronogram_demo.jpg)
 
 ## Key Features: 
@@ -18,10 +25,14 @@
 # 1. Clone the repository: 
 git clone https://github.com/mym0us3r/Chronogram.git
 cd Chronogram
+chmod +x chronogram.py
 
 # 2. Install Python dependencies: 
-# 'requests' is the only non-standard library required
+'requests' is the only non-standard library required (main library)
 pip install requests
+
+# Install SOCKS support (required for Tor stealth routing)
+pip install pysocks
 
 # 3. Install and start Tor (Linux/Debian/Ubuntu): 
 # ChronoGram requires the Tor service to be active for stealth routing
@@ -56,6 +67,20 @@ To use ChronoGram, you need a valid Instagram session cookie.
 > [!WARNING]
 > **Never share your SessionID.** It is equivalent to your password and gives full access to your account.
 
+### Usage Examples: 
+```
+After setting up Tor and getting your SessionID, you can run ChronoGram using the following commands: 
+
+# Search by Username (Most common)
+python3 chronogram.py -u username -s YOUR_SESSIONID
+
+# Search by User ID (Precise target)
+python3 chronogram.py -i 123456789 -s YOUR_SESSIONID
+
+# Search by Phone Number (International format)
+python3 chronogram.py -n +5561999999999 -s YOUR_SESSIONID
+
+```
 ## Disclaimer (Terms of Use):
 
 **ChronoGram** was developed for educational purposes, authorized security auditing, and professional OSINT research only.
