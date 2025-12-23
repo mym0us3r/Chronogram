@@ -85,7 +85,7 @@ python3 chronogram.py -n +5561999999999 -s YOUR_SESSIONID
 
 **ChronoGram** was developed for educational purposes, authorized security auditing, and professional OSINT research only.
 
-* **Ethical Use:** The developer (**m0us3r**) is not responsible for any misuse, damage, or illegal activities caused by this tool.
+* **Ethical Use:** The developer is not responsible for any misuse, damage, or illegal activities caused by this tool.
 * **Compliance:** Users are responsible for complying with their local laws and Instagram's Terms of Service.
 * **Privacy:** Do not use this tool to harass, stalk, or infringe upon the privacy of individuals without legal authorization.
 * **Account Risk:** Using automated tools with your `sessionid` may result in temporary or permanent account restrictions. Use dummy accounts whenever possible.
