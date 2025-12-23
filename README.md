@@ -2,7 +2,7 @@
 
 **ChronoGram** is a powerful, stealth-focused OSINT tool designed to extract deep metadata from Instagram profiles. Unlike standard tools, ChronoGram automates security protocols via the Tor network and organizes every investigation into professional workspaces.
 
-**The Origin of the Name**: The name **ChronoGram** comes from the fusion of two Greek roots:
+**The origin of the name**: The name **ChronoGram** comes from the fusion of two Greek roots:
 * **Chrono** (Greek *Khronos*): Representing **Time** and the timeline of investigation.
 * **-gram** (Greek Suffix *-gramma*): Representing a **Written Record** or **Visual Representation**.
 **ChronoGram** is designed to capture and record the digital evidence left behind in the social media timeline.
