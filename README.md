@@ -96,7 +96,7 @@ python3 chronogram.py -n +5561999999999 -s YOUR_SESSIONID
 
 ----------------------------------------------------------------------
 **Contributors:**
-Zeus, the 30-day-old puppy guarding the source code :) 
+ZEUS, the 30-day-old puppy guarding the source code :) 
 ---------------------------------------------------------------------- 
 **Credits & Inspiration:**
 This project was inspired by projects like instagrapi, toutatis and instainsane.
